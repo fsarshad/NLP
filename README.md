@@ -15,6 +15,13 @@
 
 # Introduction
 
+As a team of three, at Columbia University, our project will be a step-by-step guide on how to train and test different types of NLP models. Such models include (Convo1D, Glove, Bert, and GP2). 
+
+For the final submission of the project, we have included the three requirements: 
+- GitHub README (the current file you are reading)
+- [Final Report]()
+- [Frontend Report]() + [modularized .py files]()
+
 # Overview 
 
 # Methods  
