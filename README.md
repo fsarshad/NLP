@@ -24,7 +24,11 @@ For the final submission of the project, we have included the three requirements
 
 # Overview 
 
+
 # Methods  
+
+Our project revolved around the Stanford Sentiment Treebank - Movie Review Classification Competition. We first completed the to_series() function and then built a document term matrix our of words in the training set. We then removed stop words that occur too frequently to be useful and applied the TD-IDF formula to weigh how common words are general. 
+Use the Term Frequency - Inverse Document Frequency (TF-IDF) formula to weigh by how common words are generally. Afterward, we wrote a function to transform data with a processor. New Samples were put into a DTM based on vocabulary from the training set. We then did standard EDA and visualized our code through class balance, review lengths, word frequency per class, Wordcloud, etc. We then programmed lemmatization, stemming, and other text preprocessing. This was included in the preprocessing function. Next, we fit the model on preprocessed data and saved the preprocessor function and model. Then, we Re-fitted a better RF-Model. Following the refitted we wanted to explore grid search over at least 2 hypergrams of RF in order to determine the best model. Once that was achieved we extracted and printed the best score and parameters. Later, we experimented with at least 3 different models from classic ML architecture imports and tabularized the results in order to compare them. At the end, we discussed which models performed better and why. 
 
 * # Custom Model 1
   
