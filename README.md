@@ -1,4 +1,5 @@
 # NLPAdvMLHW3
+![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/f8186818-767e-42ed-ba4b-53ab8d0d3822)
 
 # Content
 1. [Introduction](#introduction)
