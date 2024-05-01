@@ -98,7 +98,7 @@ When examining the total parameters we noted that it defines the amount of param
 
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/ff47d289-b14f-4c4b-bc16-dbccfbab7181)
 
-Glove Models are machine-learning models that are taught to map words into semantic links between words that are captured by the Euclidean distance between these vectors in continuous vector space. It merges the best features of local context window approaches (such as word2vec) with those of global matrix factorization methods (such as Latent Semantic Analysis, LSA). When two words are used together, GloVe creates a co-occurrence matrix. Then, it learns the vector representations of each word using matrix factorization techniques.
+Glove Models are machine-learning models that are taught to map words into semantic links between words that are captured by the Euclidean distance between these vectors in continuous vector space. It merges the best features of local context window approaches (such as word2vec) with those of global matrix factorization methods (such as Latent Semantic Analysis, LSA). When two words are used together, GloVe creates a co-occurrence matrix. Then, it learns the vector representations of each word using matrix factorization techniques. When examining training loss, you want to see it decrease over time as the model understands the data. When looking at the validation loss, you want to notice that the trend decreases over time. This indicates that the model is forseeing data well. 
 
 * # Custom Model 3
 
