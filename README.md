@@ -5,9 +5,9 @@
 1. [Introduction](#introduction)
 2. [Overview](#Overview)
 3. [Methods](#Methods)
-    * [Custom Model 1](#custom-model-1)
-    * [Custom Model 2](#custom-model-2)
-    * [Custom Model 3](#custom-model-3)
+    * [Custom Model 1](#Model-1:-Conv1D-Model)
+    * [Custom Model 2](#Model-2:-Transfer-Learning-with-GloVe-Embeddings)
+    * [Custom Model 3](#Model-3:-Transfer-Learning-with-BERT)
 4. [Results](#Results)
     * [Fine Tuning](#fine-tuning)
 5. [Conclusion](#Conclusion)
@@ -85,13 +85,31 @@ Learning rate: 0.0001 (from 0.001, a tenth of the original value)
 
 The higher number of embedding dimensions, LSTM units, and newly introduced dense units as hidden layers all allow the model to capture more information about the reviews and the relationships between words. In addition, the lower learning rate allows the model to learn more slowly and avoid overshooting the optimal solution. This combination of hyperparameters allows the model to learn more effectively and generalize better to unseen data.
 
-* # Custom Model 1
+Next, we Trained three more prediction models to try to predict the SST sentiment dataset well. 
 
+* # Model 1: Conv1D Model
+![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/286d7292-e624-42d2-8919-f5a19e7efabf)
 
-  
-* # Custom Model 2 
+As you can see... 
 
-* # Custom Model 3 
+![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/7944859e-830d-4844-824f-08d7338169c4)
+
+As you can see... 
+* # Model 2: Transfer Learning with GloVe Embeddings
+
+![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/55f0bd6e-c116-4d67-a13e-e67ee1e74123)
+
+As you can see...
+
+![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/ff47d289-b14f-4c4b-bc16-dbccfbab7181)
+
+As you can see...
+
+* # Model 3: Transfer Learning with BERT
+
+![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/dbcd83be-50ec-42df-bc3c-c74af11200e1)
+
+As you can see... 
 
 # Results 
 
