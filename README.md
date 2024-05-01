@@ -42,8 +42,7 @@ The image above displays a word cloud of the top 10 positive word reviews (after
 
 Next, we explored the length of movie reviews by sentiment. The green trend represents the positive while the blue represents the negative.  The x-axis represents the character length of the review while the y-axis is the count of reviews that are each length. 
 
-![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/11bc6d31-fe1d-4746-b724-e5a6558022df)
-
+![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/6087b76e-f233-4a42-a452-df06b788d90e)
 
 The visual above showcases the dataset distribution by sentiment with the blue bar representing negative having 3310 and the orange bar representing positive having 3610. There is a slightly more positive dataset distribution by sentiment. 
 
