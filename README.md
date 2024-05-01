@@ -101,6 +101,7 @@ Next, we Trained three more prediction models to try to predict the SST sentimen
 
 # Results & Conclusion 
 
+After experimenting with various models, the LSTM model with Dropout performed the best on metrics accuracy, F1 Score, precision, and recall. This is due to the model combining memory features while avoiding overfitting via dropout.
 
 # References 
 
