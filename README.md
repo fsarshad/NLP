@@ -8,9 +8,7 @@
     * [Custom Model 1](#custom-model-1)
     * [Custom Model 2](#custom-model-2)
     * [Custom Model 3](#custom-model-3)
-4. [Results](#Results)
-    * [Fine Tuning](#fine-tuning)
-5. [Conclusion](#Conclusion)
+5. [Results & Conclusion](#Results-&-Conclusion)
 6. [References](#References)
 
 # Introduction
