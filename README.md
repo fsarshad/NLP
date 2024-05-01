@@ -58,8 +58,6 @@ We then repeated the submission process to improve our place on the leaderboard.
 
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/7f6ad48d-03a4-49f5-af40-4cbed8dba2bb)
 
-As you can see.... 
-
 We then set up callbacks, and a learning rate scheduler, and performed early stopping. Next, we trained the LSTM Model, with its performance shown below: 
 
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/867989e7-ada0-4263-be6f-b33eac1986f1)
