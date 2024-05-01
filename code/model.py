@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 import pandas as pd
+import os
 
 def load_model_from_name(model_name): 
     """
@@ -27,6 +28,9 @@ def load_model_from_name(model_name):
         'Universal Sentence Encoder (USE)': 'models/model_USE.h5',
         'GPT-2': 'models/model_GPT2.h5'
     }
+    if not os.path.exists(model_name_path_map[model_name]):
+        print(f"Model {model_name} not found.")
+        print("Please visit https://drive.google.com/drive/folders/1XGYTPosJI0PmyBSJI5g7ApnbXDxBzRXT?usp=drive_link to download the relevant .h5 file.")
     model_path = model_name_path_map[model_name]
     model = load_model(model_path)
     return model
