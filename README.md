@@ -98,13 +98,14 @@ When examining the total parameters we noted that it defines the amount of param
 
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/ff47d289-b14f-4c4b-bc16-dbccfbab7181)
 
-Glove Models are machine-learning models that are taught to map words into semantic links between words that are captured by the Euclidean distance between these vectors in continuous vector space. It merges the best features of local context window approaches (such as word2vec) with those of global matrix factorization methods (such as Latent Semantic Analysis, LSA). When two words are used together, GloVe creates a co-occurrence matrix. Then, it learns the vector representations of each word using matrix factorization techniques. When examining training loss, you want to see it decrease over time as the model understands the data. When looking at the validation loss, you want to notice that the trend decreases over time. This indicates that the model is forseeing data well. Model Accuracy, you want to notice the training accuracy to rise as the model gains more knowledge about the data. For model validation accuracy, you want to also see it rise over time.  
+Glove Models are machine-learning models that are taught to map words into semantic links between words that are captured by the Euclidean distance between these vectors in continuous vector space. It merges the best features of local context window approaches (such as word2vec) with those of global matrix factorization methods (such as Latent Semantic Analysis, LSA). When two words are used together, GloVe creates a co-occurrence matrix. Then, it learns the vector representations of each word using matrix factorization techniques. When examining training loss, you want to see it decrease over time as the model understands the data. When looking at the validation loss, you want to notice that the trend decreases over time. This indicates that the model is forseeing data well. Model Accuracy, you want to notice the training accuracy to rise as the model gains more knowledge about the data. For model validation accuracy, you want to also see it rise over time. 
 
 * # Custom Model 3
 
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/29135917/9467708c-3d8c-443d-ac87-3b675f6fcaf4)
 <img width="351" alt="image" src="https://github.com/fsarshad/NLPAdvMLHW3/assets/29135917/57d0b948-2fd2-436b-95c2-b9d863235ec3">
 
+The BERT model helps computers understand the meaning of ambiguous language in the text. When looking at a bert model loss and model accuracy you want to notice a couple of things. A decrease in loss values represents better performance.
 
 # Conclusion 
 
