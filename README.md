@@ -40,7 +40,9 @@ After examining the negative-ish words we wanted to explore the top 10 positive 
 
 The image above displays a word cloud of the top 10 positive word reviews (after cleaning). We noticed that words such as good, fun, comedy, best, performance, love, great, heart, well, fill, make, one, and movie were some of the positive words mentioned in the dataset. 
 
-Next, we explored the length of movie reviews by sentiment. The green trend represents the positive while the blue represents the negative.  The x-axis represents the character length of the review while the y-axis is the count of reviews that are each length. 
+![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/4592961e-c521-4eeb-8434-46f4c3fbb416)
+
+Next, in the visual above, we explored the length of movie reviews by sentiment. The green trend represents the positive while the blue represents the negative.  The x-axis represents the character length of the review while the y-axis is the count of reviews that are each length. 
 
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/6087b76e-f233-4a42-a452-df06b788d90e)
 
