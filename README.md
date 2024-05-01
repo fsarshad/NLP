@@ -5,7 +5,7 @@
 1. [Introduction](#introduction)
 2. [Overview](#Overview)
 3. [Methods](#Methods)
-    * [Custom Model 1](# Model 1: Conv1D Model)
+    * [Custom Model 1](#custom-model-1)
     * [Custom Model 2](#custom-model-2)
     * [Custom Model 3](#custom-model-3)
 4. [Results](#Results)
@@ -87,7 +87,7 @@ The higher number of embedding dimensions, LSTM units, and newly introduced dens
 
 Next, we Trained three more prediction models to try to predict the SST sentiment dataset well. 
 
-* # Model 1: Conv1D Model
+* # Custom Model 1
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/286d7292-e624-42d2-8919-f5a19e7efabf)
 
 As you can see... 
@@ -95,7 +95,7 @@ As you can see...
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/7944859e-830d-4844-824f-08d7338169c4)
 
 As you can see... 
-* # Model 2: Transfer Learning with GloVe Embeddings
+* # Custom Model 2 
 
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/55f0bd6e-c116-4d67-a13e-e67ee1e74123)
 
@@ -105,7 +105,7 @@ As you can see...
 
 As you can see...
 
-* # Model 3: Transfer Learning with BERT
+* # Custom Model 3 
 
 
 
