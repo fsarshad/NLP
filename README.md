@@ -8,7 +8,7 @@
     * [Custom Model 1](#custom-model-1)
     * [Custom Model 2](#custom-model-2)
     * [Custom Model 3](#custom-model-3)
-5. [Results & Conclusion](#Results-&-Conclusion)
+5. [Conclusion](#Conclusion)
 6. [References](#References)
 
 # Introduction
@@ -97,7 +97,7 @@ Next, we Trained three more prediction models to try to predict the SST sentimen
 
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/dbcd83be-50ec-42df-bc3c-c74af11200e1)
 
-# Results & Conclusion 
+# Conclusion 
 
 After experimenting with various models, the LSTM model with Dropout performed the best on metrics accuracy, F1 Score, precision, and recall. This is due to the model combining memory features while avoiding overfitting via dropout.
 
