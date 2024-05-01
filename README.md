@@ -72,10 +72,22 @@ We then compared two or more models:
 
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/b1fb1b6a-8037-4768-ad2f-7b575d132da8)
 
+Once that was finished, we tuned a model within the range of hyperparameters with a Keras Tuner. 
 
+![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/500faa62-1a2f-4878-a588-22773b9a0a06)
 
+The best hyperparameters found were:
+
+Number of embedding dimensions: 128 (from 32)
+Number of LSTM units: 128 (from 32)
+Number of dense units: 192 (from 0, technically)
+Learning rate: 0.0001 (from 0.001, a tenth of the original value)
+
+The higher number of embedding dimensions, LSTM units, and newly introduced dense units as hidden layers all allow the model to capture more information about the reviews and the relationships between words. In addition, the lower learning rate allows the model to learn more slowly and avoid overshooting the optimal solution. This combination of hyperparameters allows the model to learn more effectively and generalize better to unseen data.
 
 * # Custom Model 1
+
+
   
 * # Custom Model 2 
 
