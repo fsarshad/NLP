@@ -52,8 +52,6 @@ Below we have the basic model performance.
 
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/c5ed0a55-4902-4d8d-a6d5-6e14d6135e2b)
 
-As you can see..... 
-
 We then repeated the submission process to improve our place on the leaderboard. 
 
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/7f6ad48d-03a4-49f5-af40-4cbed8dba2bb)
