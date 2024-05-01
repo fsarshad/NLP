@@ -79,20 +79,20 @@ The higher number of embedding dimensions, LSTM units, and newly introduced dens
 
 Next, we Trained three more prediction models to try to predict the SST sentiment dataset well. 
 
-* # Custom Model 1: Conv1D
+* # Custom Model 1
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/286d7292-e624-42d2-8919-f5a19e7efabf)
 
 
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/7944859e-830d-4844-824f-08d7338169c4)
 
-* # Custom Model 2: LSTM Transfer Learning with GloVe Embeddings
+* # Custom Model 2
 
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/55f0bd6e-c116-4d67-a13e-e67ee1e74123)
 
 
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/ff47d289-b14f-4c4b-bc16-dbccfbab7181)
 
-* # Custom Model 3: Transfer Learning with BERT
+* # Custom Model 3
 
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/29135917/9467708c-3d8c-443d-ac87-3b675f6fcaf4)
 <img width="351" alt="image" src="https://github.com/fsarshad/NLPAdvMLHW3/assets/29135917/57d0b948-2fd2-436b-95c2-b9d863235ec3">
