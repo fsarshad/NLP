@@ -107,6 +107,10 @@ As you can see...
 
 * # Model 3: Transfer Learning with BERT
 
+
+
+As you can see...
+
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/dbcd83be-50ec-42df-bc3c-c74af11200e1)
 
 As you can see... 
