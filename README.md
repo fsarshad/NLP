@@ -48,6 +48,32 @@ Next, in the visual above, we explored the length of movie reviews by sentiment.
 
 The visual above showcases the dataset distribution by sentiment with the blue bar representing negative having 3310 and the orange bar representing positive having 3610. There is a slightly more positive dataset distribution by sentiment. 
 
+Below we have the basic model performance. 
+
+![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/c5ed0a55-4902-4d8d-a6d5-6e14d6135e2b)
+
+As you can see..... 
+
+We then repeated the submission process to improve our place on the leaderboard. 
+
+![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/7f6ad48d-03a4-49f5-af40-4cbed8dba2bb)
+
+As you can see.... 
+
+We then set up callbacks, and a learning rate scheduler, and performed early stopping. Next, we trained the LSTM Model, with its performance shown below: 
+
+![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/867989e7-ada0-4263-be6f-b33eac1986f1)
+
+Compared to the basic deep learning model, the LSTM model performed better in both training accuracy (0.99 vs 0.94) AND val_accuracy (0.74 vs 0.68). This is most likely because the LSTM is capturing long-term dependencies and sequential context in the review data that the basic deep learning model cannot. Being able to remember information from the beginning of the sequence and use it to make predictions at the end of the sequence, makes the LSTM model far more effective at predicting the most likely sentiment of the review. The basic deep learning model, on the other hand, treats each word in the review as independent and does not consider the order of the words—making it far less effective.
+
+However, we do note that the LSTM model is overfitting to the training data, as the training accuracy is significantly higher than the validation accuracy—and the validation loss is increasing while the training loss continues to decrease. To address this, we could try adding dropout layers or using regularization techniques.
+
+We then compared two or more models: 
+
+![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/b1fb1b6a-8037-4768-ad2f-7b575d132da8)
+
+
+
 
 * # Custom Model 1
   
