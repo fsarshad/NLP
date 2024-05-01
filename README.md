@@ -19,7 +19,7 @@ As a team of three, at Columbia University, our project will be a step-by-step g
 
 For the final submission of the project, we have included the three requirements: 
 - GitHub README (the current file you are reading)
-- [Frontend Report]() + [modularized .py files]()
+- [Frontend Report](https://github.com/fsarshad/NLPAdvMLHW3/blob/main/frontend_notebook.ipynb) + [modularized .py files]()
 
 # Overview 
 
