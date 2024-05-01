@@ -28,6 +28,23 @@ Our effort focused on the Stanford Sentiment Treebank - Movie Review Classificat
 
 # Methods  
 
+Before we explain the models we wanted to get a general understanding of the dataset. This led us to perform general eda. 
+
+![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/5a40970f-530c-4d1f-87bc-ac624409a719)
+
+The image above displays a word cloud of the top 10 negative word reviews (after cleaning). We noticed that words such as movie, film, end, bad, feel, little, nothing, lack, and plot were some of the negative-ish words mentioned in the dataset. 
+
+After examining the negative-ish words we wanted to explore the top 10 positive word reviews. 
+
+![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/5dee9121-9f6e-4c63-961f-ef84cadcb564)
+
+The image above displays a word cloud of the top 10 positive word reviews (after cleaning). We noticed that words such as good, fun, comedy, best, performance, love, great, heart, well, fill, make, one, and movie were some of the positive words mentioned in the dataset. 
+
+Next, we explored the length of movie reviews by sentiment. The green trend represents the positive while the blue represents the negative.  The x-axis represents the character length of the review while the y-axis 
+
+![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/dc91d1d5-a518-4571-9f59-b2b49a289797)
+
+The visual above showcases the dataset distribution by sentiment with the blue bar representing negative having 3310 and the orange bar representing positive having 3610. There is a slightly more positive dataset distribution by sentiment. 
 
 
 * # Custom Model 1
@@ -44,3 +61,7 @@ Our effort focused on the Stanford Sentiment Treebank - Movie Review Classificat
 
 # References 
 
+Things to cite: Stanford review dataset (https://ai.stanford.edu/~amaas/data/sentiment/), GloVe (https://nlp.stanford.edu/projects/glove/), BERT (https://arxiv.org/abs/1810.04805)
+Shayan Chowdhury
+6:25 PM
+Universal Sentence Encoder: https://arxiv.org/abs/1803.11175
