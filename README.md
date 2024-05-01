@@ -19,7 +19,6 @@ As a team of three, at Columbia University, our project will be a step-by-step g
 
 For the final submission of the project, we have included the three requirements: 
 - GitHub README (the current file you are reading)
-- [Final Report]()
 - [Frontend Report]() + [modularized .py files]()
 
 # Overview 
@@ -96,16 +95,12 @@ Next, we Trained three more prediction models to try to predict the SST sentimen
 
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/ff47d289-b14f-4c4b-bc16-dbccfbab7181)
 
-
 * # Custom Model 3 
 
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/dbcd83be-50ec-42df-bc3c-c74af11200e1)
 
-# Results 
+# Results & Conclusion 
 
-* # Fine Tuning 
-
-# Conclusion 
 
 # References 
 
