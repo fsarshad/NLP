@@ -8,10 +8,7 @@
     * [Custom Model 1](#custom-model-1)
     * [Custom Model 2](#custom-model-2)
     * [Custom Model 3](#custom-model-3)
-4. [Results](#Results)
-    * [Fine Tuning](#fine-tuning)
-5. [Conclusion](#Conclusion)
-6. [References](#References)
+4. [Conclusion](#Conclusion)
 
 # Introduction
 
@@ -19,7 +16,9 @@ As a team of three, at Columbia University, our project will be a step-by-step g
 
 For the final submission of the project, we have included the three requirements: 
 - GitHub README (the current file you are reading)
-- [Frontend Report]() + [modularized .py files]()
+- [Part 1](https://github.com/fsarshad/NLPAdvMLHW3/blob/main/assignment3_Part1_1_sc4040_ajh2259_fsa2139.ipynb)
+- [Part 2](https://github.com/fsarshad/NLPAdvMLHW3/blob/main/assignment3_Part2_1_sc4040_ajh2259_fsa2139.ipynb)
+- [Frontend Report](https://github.com/fsarshad/NLPAdvMLHW3/blob/main/frontend_notebook.ipynb) + [modularized .py files]()
 
 # Overview 
 
@@ -82,26 +81,30 @@ The higher number of embedding dimensions, LSTM units, and newly introduced dens
 
 Next, we Trained three more prediction models to try to predict the SST sentiment dataset well. 
 
-* # Custom Model 1: Conv1D
+* # Custom Model 1
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/286d7292-e624-42d2-8919-f5a19e7efabf)
 
 
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/7944859e-830d-4844-824f-08d7338169c4)
 
-* # Custom Model 2: LSTM Transfer Learning with GloVe Embeddings
+Convo1d Models are one-dimensional CNNs used to process dimensional sequential data. Examining the model performance visual allows us to understand the trajectory of the training loss and training validation trend. The trend indicates the effect of the loss during the training and validation. As the viewer, you want to identify whether the trend falls over epochs. This means the model is gaining knowledge from the dataset itself. If you see that the training loss is minimized while the validation loss is going up, it implies overfitting. Overfitting means, that the model is close to the training dataset. 
+
+* # Custom Model 2
 
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/55f0bd6e-c116-4d67-a13e-e67ee1e74123)
 
 
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/ff47d289-b14f-4c4b-bc16-dbccfbab7181)
 
-* # Custom Model 3: Transfer Learning with BERT
+* # Custom Model 3
 
-![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/dbcd83be-50ec-42df-bc3c-c74af11200e1)
+![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/29135917/9467708c-3d8c-443d-ac87-3b675f6fcaf4)
+<img width="351" alt="image" src="https://github.com/fsarshad/NLPAdvMLHW3/assets/29135917/57d0b948-2fd2-436b-95c2-b9d863235ec3">
 
-# Results & Conclusion 
 
-After experimenting with various models, the LSTM model with Dropout performed the best on metrics accuracy, F1 Score, precision, and recall. This is due to the model combining memory features while avoiding overfitting via dropout.
+# Conclusion 
+
+After experimenting with various models, the fine-tuned BERT model performed the best, achieving a validation accuracy of 0.85, F1 score of 0.85, precision of 0.85, and recall of 0.85 (interesting as to why they're identical). The reasoning behind this is that it is a transformer-based model that is pre-trained on a large corpus of text data. The model has a deep architecture that allows it to capture complex relationships between words and sentences. By leveraging its pre-trained knowledge of language and context, the fine-tuned model is able to learn the sentiment of the movie reviews quite well. Furthermore, since we do include techniques such as dropout, regularization, and learning rate scheduling, the model is able to generalize well to unseen data and avoid overfitting.
 
 # References 
 Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher D. Manning, Andrew Ng, and Christopher Potts. 2013. Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank. In Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing, pages 1631–1642, Seattle, Washington, USA. Association for Computational Linguistics.
@@ -113,4 +116,3 @@ Devlin, J., Chang, M., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of De
 Jeffrey Pennington, Richard Socher, and Christopher D. Manning. 2014. GloVe: Global Vectors for Word Representation. https://nlp.stanford.edu/projects/glove/
 
 Maas, A., Daly, R. E., Pham, P. T., Huang, D., Ng, A. Y., & Potts, C. (2011, June). Learning word vectors for sentiment analysis. Learning Word Vectors for Sentiment Analysis. http://www.aclweb.org/anthology/P11-1015 
-
