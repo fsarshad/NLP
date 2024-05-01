@@ -8,8 +8,7 @@
     * [Custom Model 1](#custom-model-1)
     * [Custom Model 2](#custom-model-2)
     * [Custom Model 3](#custom-model-3)
-4. [Conclusion](#Conclusion)
-5. [References](#References)
+4. [Results&Conclusion](#Results&Conclusion)
 
 # Introduction
 
@@ -101,7 +100,7 @@ Next, we Trained three more prediction models to try to predict the SST sentimen
 
 # Results & Conclusion 
 
-After experimenting with various models, the fine-tuned BERT model performed the best, achieving a validation accuracy of 0.85, F1 score of 0.85, precision of 0.85, and recall of 0.85 (interesting as to why they're identical). The reasoning behind this is because it is a transformer-based model that is pre-trained on a large corpus of text data. The model has a deep architecture that allows it to capture complex relationships between words and sentences. By leveraging its pre-trained knowledge of language and context, the fine-tuned model is able to learn the sentiment of the movie reviews quite well. Furthermore, since we do include techniques such as dropout, regularization and learning rate scheduling, the model is able to generalize well to unseen data and avoid overfitting.
+After experimenting with various models, the fine-tuned BERT model performed the best, achieving a validation accuracy of 0.85, F1 score of 0.85, precision of 0.85, and recall of 0.85 (interesting as to why they're identical). The reasoning behind this is that it is a transformer-based model that is pre-trained on a large corpus of text data. The model has a deep architecture that allows it to capture complex relationships between words and sentences. By leveraging its pre-trained knowledge of language and context, the fine-tuned model is able to learn the sentiment of the movie reviews quite well. Furthermore, since we do include techniques such as dropout, regularization, and learning rate scheduling, the model is able to generalize well to unseen data and avoid overfitting.
 
 # References 
 Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher D. Manning, Andrew Ng, and Christopher Potts. 2013. Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank. In Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing, pages 1631–1642, Seattle, Washington, USA. Association for Computational Linguistics.
