@@ -87,6 +87,8 @@ Next, we Trained three more prediction models to try to predict the SST sentimen
 
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/7944859e-830d-4844-824f-08d7338169c4)
 
+Convo1d Models are one-dimensional CNNs used to process dimensional sequential data. Examining the model performance visual allows us to understand the trajectory of the training loss and training validation trend. The trend indicates the effect of the loss during the training and validation. As the viewer, you want to identify whether the trend falls over epochs. This means the model is gaining knowledge from the dataset itself. If you see that the training loss is minimized while the validation loss is going up, it implies overfitting. Overfitting means, that the model is close to the training dataset. 
+
 * # Custom Model 2
 
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/55f0bd6e-c116-4d67-a13e-e67ee1e74123)
