@@ -63,7 +63,11 @@ The visual above showcases the dataset distribution by sentiment with the blue b
 
 # References 
 
-Things to cite: Stanford review dataset (https://ai.stanford.edu/~amaas/data/sentiment/), 
-GloVe (https://nlp.stanford.edu/projects/glove/), 
-BERT (https://arxiv.org/abs/1810.04805)
-Universal Sentence Encoder: https://arxiv.org/abs/1803.11175
+Cer, D., Yang, Y., Kong, S., Hua, N., Limtiaco, N., John, R. S., Constant, N., Yuan, S., Tar, C., Sung, Y., Strope, B., & Kurzweil, R. (2018). Universal Sentence Encoder. ArXiv. /abs/1803.11175
+
+Devlin, J., Chang, M., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. ArXiv. /abs/1810.04805
+
+Jeffrey Pennington, Richard Socher, and Christopher D. Manning. 2014. GloVe: Global Vectors for Word Representation. https://nlp.stanford.edu/projects/glove/
+
+Maas, A., Daly, R. E., Pham, P. T., Huang, D., Ng, A. Y., & Potts, C. (2011, June). Learning word vectors for sentiment analysis. Learning Word Vectors for Sentiment Analysis. http://www.aclweb.org/anthology/P11-1015 
+
