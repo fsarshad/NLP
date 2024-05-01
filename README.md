@@ -104,7 +104,6 @@ Next, we Trained three more prediction models to try to predict the SST sentimen
 After experimenting with various models, the LSTM model with Dropout performed the best on metrics accuracy, F1 Score, precision, and recall. This is due to the model combining memory features while avoiding overfitting via dropout.
 
 # References 
-Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher D. Manning, Andrew Ng, and Christopher Potts. 2013. Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank. In Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing, pages 1631–1642, Seattle, Washington, USA. Association for Computational Linguistics.
 
 Cer, D., Yang, Y., Kong, S., Hua, N., Limtiaco, N., John, R. S., Constant, N., Yuan, S., Tar, C., Sung, Y., Strope, B., & Kurzweil, R. (2018). Universal Sentence Encoder. ArXiv. /abs/1803.11175
 
@@ -114,3 +113,4 @@ Jeffrey Pennington, Richard Socher, and Christopher D. Manning. 2014. GloVe: Glo
 
 Maas, A., Daly, R. E., Pham, P. T., Huang, D., Ng, A. Y., & Potts, C. (2011, June). Learning word vectors for sentiment analysis. Learning Word Vectors for Sentiment Analysis. http://www.aclweb.org/anthology/P11-1015 
 
+Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher D. Manning, Andrew Ng, and Christopher Potts. 2013. Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank. In Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing, pages 1631–1642, Seattle, Washington, USA. Association for Computational Linguistics.
