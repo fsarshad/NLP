@@ -105,7 +105,7 @@ Glove Models are machine-learning models that are taught to map words into seman
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/29135917/9467708c-3d8c-443d-ac87-3b675f6fcaf4)
 <img width="351" alt="image" src="https://github.com/fsarshad/NLPAdvMLHW3/assets/29135917/57d0b948-2fd2-436b-95c2-b9d863235ec3">
 
-The BERT model helps computers understand the meaning of ambiguous language in the text. When looking at a bert model loss and model accuracy you want to notice a couple of things. A decrease in loss values represents better performance.
+The BERT model helps computers understand the meaning of ambiguous language in the text. When looking at a bert model loss and model accuracy you want to notice a decrease in loss values as it represents better performance.
 
 # Conclusion 
 
