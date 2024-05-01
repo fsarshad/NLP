@@ -8,6 +8,7 @@
     * [Custom Model 1](#custom-model-1)
     * [Custom Model 2](#custom-model-2)
     * [Custom Model 3](#custom-model-3)
+    * [EC](#EC)
 4. [Conclusion](#Conclusion)
 
 # Introduction
@@ -106,6 +107,10 @@ Glove Models are machine-learning models that are taught to map words into seman
 <img width="351" alt="image" src="https://github.com/fsarshad/NLPAdvMLHW3/assets/29135917/57d0b948-2fd2-436b-95c2-b9d863235ec3">
 
 The BERT model helps computers understand the meaning of ambiguous language in the text. When looking at a bert model loss and model accuracy you want to notice a decrease in loss values as it represents better performance.
+
+* # EC
+![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/c886bc6b-5ae3-44c3-8e51-9e3ddd931779)
+
 
 # Conclusion 
 
