@@ -8,6 +8,8 @@
     * [Custom Model 1](#custom-model-1)
     * [Custom Model 2](#custom-model-2)
     * [Custom Model 3](#custom-model-3)
+4. [Results](#Results)
+    * [Fine Tuning](#fine-tuning)
 5. [Conclusion](#Conclusion)
 6. [References](#References)
 
@@ -15,11 +17,9 @@
 
 As a team of three, at Columbia University, our project will be a step-by-step guide on how to train and test different types of NLP models. Such models include (Convo1D, Glove, Bert). 
 
-For the final submission of the project, we have included the following requirements: 
+For the final submission of the project, we have included the three requirements: 
 - GitHub README (the current file you are reading)
-- [Part 1](https://github.com/fsarshad/NLPAdvMLHW3/blob/main/assignment3_Part1_1_sc4040_ajh2259_fsa2139.ipynb)
-- [Part 2](https://github.com/fsarshad/NLPAdvMLHW3/blob/main/assignment3_Part2_1_sc4040_ajh2259_fsa2139.ipynb)
-- [Frontend Report](https://github.com/fsarshad/NLPAdvMLHW3/blob/main/frontend_notebook.ipynb) 
+- [Frontend Report]() + [modularized .py files]()
 
 # Overview 
 
@@ -97,13 +97,16 @@ Next, we Trained three more prediction models to try to predict the SST sentimen
 
 * # Custom Model 3: Transfer Learning with BERT
 
-![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/dbcd83be-50ec-42df-bc3c-c74af11200e1)
+![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/29135917/9467708c-3d8c-443d-ac87-3b675f6fcaf4)
+<img width="351" alt="image" src="https://github.com/fsarshad/NLPAdvMLHW3/assets/29135917/57d0b948-2fd2-436b-95c2-b9d863235ec3">
 
-# Conclusion 
 
-After experimenting with various models, the LSTM model with Dropout performed the best on metrics accuracy, F1 Score, precision, and recall. This is due to the model combining memory features while avoiding overfitting via dropout.
+# Results & Conclusion 
+
+After experimenting with various models, the fine-tuned BERT model performed the best, achieving a validation accuracy of 0.85, F1 score of 0.85, precision of 0.85, and recall of 0.85 (interesting as to why they're identical). The reasoning behind this is because it is a transformer-based model that is pre-trained on a large corpus of text data. The model has a deep architecture that allows it to capture complex relationships between words and sentences. By leveraging its pre-trained knowledge of language and context, the fine-tuned model is able to learn the sentiment of the movie reviews quite well. Furthermore, since we do include techniques such as dropout, regularization and learning rate scheduling, the model is able to generalize well to unseen data and avoid overfitting.
 
 # References 
+Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher D. Manning, Andrew Ng, and Christopher Potts. 2013. Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank. In Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing, pages 1631–1642, Seattle, Washington, USA. Association for Computational Linguistics.
 
 Cer, D., Yang, Y., Kong, S., Hua, N., Limtiaco, N., John, R. S., Constant, N., Yuan, S., Tar, C., Sung, Y., Strope, B., & Kurzweil, R. (2018). Universal Sentence Encoder. ArXiv. /abs/1803.11175
 
@@ -112,5 +115,3 @@ Devlin, J., Chang, M., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of De
 Jeffrey Pennington, Richard Socher, and Christopher D. Manning. 2014. GloVe: Global Vectors for Word Representation. https://nlp.stanford.edu/projects/glove/
 
 Maas, A., Daly, R. E., Pham, P. T., Huang, D., Ng, A. Y., & Potts, C. (2011, June). Learning word vectors for sentiment analysis. Learning Word Vectors for Sentiment Analysis. http://www.aclweb.org/anthology/P11-1015 
-
-Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher D. Manning, Andrew Ng, and Christopher Potts. 2013. Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank. In Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing, pages 1631–1642, Seattle, Washington, USA. Association for Computational Linguistics.
