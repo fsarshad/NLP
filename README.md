@@ -8,7 +8,7 @@
     * [Custom Model 1](#custom-model-1)
     * [Custom Model 2](#custom-model-2)
     * [Custom Model 3](#custom-model-3)
-4. [Results&Conclusion](#Results-&-Conclusion)
+4. [Conclusion](#Conclusion)
 
 # Introduction
 
@@ -98,7 +98,7 @@ Next, we Trained three more prediction models to try to predict the SST sentimen
 <img width="351" alt="image" src="https://github.com/fsarshad/NLPAdvMLHW3/assets/29135917/57d0b948-2fd2-436b-95c2-b9d863235ec3">
 
 
-# Results & Conclusion 
+# Conclusion 
 
 After experimenting with various models, the fine-tuned BERT model performed the best, achieving a validation accuracy of 0.85, F1 score of 0.85, precision of 0.85, and recall of 0.85 (interesting as to why they're identical). The reasoning behind this is that it is a transformer-based model that is pre-trained on a large corpus of text data. The model has a deep architecture that allows it to capture complex relationships between words and sentences. By leveraging its pre-trained knowledge of language and context, the fine-tuned model is able to learn the sentiment of the movie reviews quite well. Furthermore, since we do include techniques such as dropout, regularization, and learning rate scheduling, the model is able to generalize well to unseen data and avoid overfitting.
 
