@@ -16,6 +16,8 @@ As a team of three, at Columbia University, our project will be a step-by-step g
 
 For the final submission of the project, we have included the three requirements: 
 - GitHub README (the current file you are reading)
+- [Part 1](https://github.com/fsarshad/NLPAdvMLHW3/blob/main/assignment3_Part1_1_sc4040_ajh2259_fsa2139.ipynb)
+- [Part 2](https://github.com/fsarshad/NLPAdvMLHW3/blob/main/assignment3_Part2_1_sc4040_ajh2259_fsa2139.ipynb)
 - [Frontend Report]() + [modularized .py files]()
 
 # Overview 
