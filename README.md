@@ -88,6 +88,8 @@ Next, we Trained three more prediction models to try to predict the SST sentimen
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/7944859e-830d-4844-824f-08d7338169c4)
 
 Convo1d Models are one-dimensional CNNs used to process dimensional sequential data. Examining the model performance visual allows us to understand the trajectory of the training loss and training validation trend. The trend indicates the effect of the loss during the training and validation. As the viewer, you want to identify whether the trend falls over epochs. This means the model is gaining knowledge from the dataset itself. If you see that the training loss is minimized while the validation loss is going up, it implies overfitting. Overfitting means, that the model is close to the training dataset. 
+When examining the total parameters we noted that it defines the amount of parameters in this model. For us its 2,024,130. When understanding trainable parameters we noted that there are 2,021,442 trainable parameters. These are the weights and biases of the neural network layers. For non-trainable parameters, the amount produced was the parameters not being updated when we were training. Are amount for non 
+ trainable parameters are 2,688 non-trainable parameters.
 
 * # Custom Model 2
 
@@ -96,11 +98,14 @@ Convo1d Models are one-dimensional CNNs used to process dimensional sequential d
 
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/51839755/ff47d289-b14f-4c4b-bc16-dbccfbab7181)
 
+Glove Models are machine-learning models that are taught to map words into semantic links between words that are captured by the Euclidean distance between these vectors in continuous vector space. It merges the best features of local context window approaches (such as word2vec) with those of global matrix factorization methods (such as Latent Semantic Analysis, LSA). When two words are used together, GloVe creates a co-occurrence matrix. Then, it learns the vector representations of each word using matrix factorization techniques. When examining training loss, you want to see it decrease over time as the model understands the data. When looking at the validation loss, you want to notice that the trend decreases over time. This indicates that the model is forseeing data well. Model Accuracy, you want to notice the training accuracy to rise as the model gains more knowledge about the data. For model validation accuracy, you want to also see it rise over time. 
+
 * # Custom Model 3
 
 ![image](https://github.com/fsarshad/NLPAdvMLHW3/assets/29135917/9467708c-3d8c-443d-ac87-3b675f6fcaf4)
 <img width="351" alt="image" src="https://github.com/fsarshad/NLPAdvMLHW3/assets/29135917/57d0b948-2fd2-436b-95c2-b9d863235ec3">
 
+The BERT model helps computers understand the meaning of ambiguous language in the text. When looking at a bert model loss and model accuracy you want to notice a couple of things. A decrease in loss values represents better performance.
 
 # Conclusion 
 
